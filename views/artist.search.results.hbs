@@ -1,1 +1,6 @@
 <h1>Search artist</h1>
+
+{{#each artists.items}}
+<h2>{{name}}</h2>
+<a href="/albums/{{id}}">View Albums</a>
+{{/each}}
